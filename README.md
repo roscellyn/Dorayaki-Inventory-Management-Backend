@@ -28,10 +28,12 @@ Program menggunakan bahasa pemrograman Javascript dengan modul cors, dotenv, exp
 ```
 docker build -t "dorayaki" .
 ```
-3. Kemudian jalankan program dengan kode di bawah ini
+4. Kemudian jalankan program dengan kode di bawah ini
 ```
 docker-compose up
 ```
+5. Untuk frontend dari program bisa di-clone dari repositori ini
+`https://github.com/roscellyn/Seleksi-Labpro-2021-Frontend`
 
 ## JSON Structure
 
