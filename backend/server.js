@@ -11,8 +11,8 @@ app.use(cors());
 app.use(express.json());
 
 // const uri = process.env.STANDWITHDORAYAKI_DB_URI;
-const uri = 'mongodb://mongo:27017/standwithdorayaki';
-// const uri = 'mongodb://localhost:27017/dorayaki';
+// const uri = 'mongodb://mongo:27017/standwithdorayaki';
+const uri = 'mongodb://localhost:27017/dorayaki';
 
 mongoose.connect(uri, {
 	useNewUrlParser: true,
